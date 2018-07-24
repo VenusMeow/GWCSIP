@@ -11,7 +11,7 @@ Servo servoRight;                            // Declare right servo
 void setup()                                 // Built in initialization block
 {
   servoRight.attach(12);                     // Attach right signal to pin 12
-
+  servoRight.writeMicroseconds(1500);        // Calibrate the right servo
 }  
  
 void loop()                                  // Main loop auto-repeats
@@ -24,6 +24,6 @@ void loop()                                  // Main loop auto-repeats
 
   servoRight.writeMicroseconds(1700);        // Right wheel counterclockwise
   delay(3000);                               // ...for 3 seconds
- 
-  servoRight.writeMicroseconds(1500);        // Right wheel counterclockwise
+
+  servoRight.writeMicroseconds(1500);        // Calibrate the right servo
 }
