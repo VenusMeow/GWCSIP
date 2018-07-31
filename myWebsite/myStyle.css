@@ -1,0 +1,33 @@
+body {
+  background-color: #FFC0CB;
+}
+h1 {
+  color:#66CDAA;
+  font-size: 30px;
+}
+
+h3 {
+  color:green;
+  font-size: 20px;
+}
+
+.intro{
+  font-family: "Courier New";
+  font-weight: bold;
+}
+
+#one {
+  color:#6A5ACD;
+}
+
+#two {
+  color:#8B4513;
+}
+
+#three{
+  color:#800080;
+}
+
+#four{
+  color:#191970;
+}
